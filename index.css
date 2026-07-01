@@ -1,18 +1,3 @@
-@media (max_width: 768px){
-    #land_pg_menu{
-        flex-direction: column;
-    }  
-    #land_pg_subt{
-        font-size: x-large;
-    } 
-    #land_pg_logo{
-        width: 70%;
-    }
-    #land_pg_titl{
-        font-size: x-small;
-    }
-}
-
 #land_pg_box1{
     display: flex;
     flex-direction: column;
