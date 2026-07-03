@@ -12,8 +12,8 @@
         justify-content: center;
         align-items: center;
         height: 250px !important;
-        width: 150px !important;
-        border: solid rgb(235, 115, 38) 10px;
+        width: 250px !important;
+        border: solid rgb(235, 115, 38) 3px;
         border-radius: 20px;
         box-shadow: 0px 5px 13px gray;
         transition: all 0.3s ease;
@@ -85,8 +85,8 @@
     justify-content: center;
     align-items: center;
     height: 350px;
-    width: 250px;
-    border: solid rgb(235, 115, 38) 10px;
+    width: 350px;
+    border: solid rgb(235, 115, 38) 3px;
     border-radius: 20px;
     box-shadow: 0px 5px 13px gray;
     transition: all 0.3s ease;
