@@ -12,6 +12,9 @@
     #land_pg_logo{
         width: 100px !important;
     }
+    #land_pg_titl{
+        font-size: smaller !important;
+    }
     #attention_header{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: larger !important;
@@ -83,6 +86,7 @@
 #land_pg_titl{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(235, 115, 38);
+    font-size: x-large;
 }
 #land_pg_menu{
     margin-top: 100px;
