@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 933 300">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #53fc18;
+        fill-rule: evenodd;
+        stroke: #eb7318;
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="933" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" width="933.33" height="300"/>
+    </clipPath>
+  </defs>
+  <g class="st3">
+    <g class="st2">
+      <path class="st1" d="M0,0h100v66.67h33.33v-33.33h33.33V0h100v100h-33.33v33.33h-33.33v33.33h33.33v33.33h33.33v100h-100v-33.33h-33.33v-33.33h-33.33v66.67H0V0ZM666.67,0h100v66.67h33.33v-33.33h33.33V0h100v100h-33.33v33.33h-33.33v33.33h33.33v33.33h33.33v100h-100v-33.33h-33.33v-33.33h-33.33v66.67h-100V0ZM300,0h100v300h-100V0ZM533.33,0h-66.67v33.33h-33.33v233.33h33.33v33.33h166.67v-100h-100v-100h100V0h-100Z"/>
+    </g>
+  </g>
+</svg>
