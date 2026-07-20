@@ -1,0 +1,90 @@
+
+:root{
+    background-color: rgb(27, 27, 27);
+}
+#betaContainer{
+    margin-top: 30px;
+    position: sticky;
+    top: 30px;
+}
+#betaPara{
+    color: rgb(235, 115, 38);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#betaPara::after{
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(to right, red, rgb(235, 115, 38));
+    height: 57px;
+    width: 157px;
+    z-index: -2;
+    border-radius: 100px;
+    box-shadow: 0px 5px 13px black;
+}
+#betaPara::before{
+    position: absolute;
+    content: '';
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+    width: 150px;
+    z-index: -1;
+    border-radius: 100px;
+}
+#welcomeContainer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcomeBox{
+    border-radius: 50px;
+    height: 250px;
+    width: 90%;
+    background-color: rgb(235, 115, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 5px 13px black;
+}
+#welcomeHeader{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(27, 27, 27);
+    margin-left: 2%;
+}
+#welcomeImage{
+    margin-right: 2%;
+    width: 35%;
+}
+.doubleLinkedContainer{
+    z-index: -3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeLinksCardBox{
+    z-index: -3;
+    width: 700px;
+    margin: 20px;
+    height: 500px;
+    position: relative;
+    border: solid 7px ;
+    border-color: rgb(235, 115, 38);
+    border-radius: 50px;
+    box-shadow: 0px 5px 13px rgb(235, 115, 38);
+}
+#navigatorContainer{
+    z-index: -3;
+    margin-top: 10%;
+}
+.navigatorHeaders{
+    z-index: -3;
+    position: absolute;
+    left: 20px;
+    color: rgb(235, 115, 38);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
