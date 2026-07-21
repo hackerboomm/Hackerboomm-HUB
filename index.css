@@ -1,14 +1,24 @@
 
 :root{
-    background-color: rgb(27, 27, 27);
+    --primary-color: rgb(240, 98, 10);
+    --secondary-color:rgb(27, 27, 27);
+    --shadow-color: black;
+    --border-radius-card: 50px;
+    --border-radius-circular: 100px;
+    --gradient-first-color: rgb(255, 0, 76);
+    --permanent-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --permanent-width-card: 450px;
+    --permanent-box-margin:20px;
+    background-color: var(--secondary-color);
 }
 #betaContainer{
-    margin-top: 30px;
+    margin-top: 50px;
     position: sticky;
     top: 30px;
+    margin-bottom: 240px;
 }
 #betaPara{
-    color: rgb(235, 115, 38);
+    color: var(--primary-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     display: flex;
@@ -18,21 +28,21 @@
 #betaPara::after{
     position: absolute;
     content: '';
-    background-image: linear-gradient(to right, red, rgb(235, 115, 38));
+    background-image: linear-gradient(to bottom right, var(--gradient-first-color), var(--primary-color));
     height: 57px;
     width: 157px;
     z-index: -2;
-    border-radius: 100px;
-    box-shadow: 0px 5px 13px black;
+    border-radius: var(--border-radius-circular);
+    box-shadow: 0px 5px 13px var(--shadow-color);
 }
 #betaPara::before{
     position: absolute;
     content: '';
-    background-color: rgb(27, 27, 27);
+    background-color: var(--secondary-color);
     height: 50px;
     width: 150px;
     z-index: -1;
-    border-radius: 100px;
+    border-radius: var(--border-radius-circular);
 }
 #welcomeContainer{
     margin-top: 2%;
@@ -41,50 +51,74 @@
     align-items: center;
 }
 #welcomeBox{
-    border-radius: 50px;
+    border-radius: var(--border-radius-card);
     height: 250px;
     width: 90%;
-    background-color: rgb(235, 115, 38);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0px 5px 13px black;
+    box-shadow: 0px 5px 13px var(--shadow-color);
 }
 #welcomeHeader{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(27, 27, 27);
+    color: var(--secondary-color);
     margin-left: 2%;
 }
 #welcomeImage{
     margin-right: 2%;
-    width: 35%;
+    width: 40%;
 }
-.doubleLinkedContainer{
-    z-index: -3;
+#navMenu{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.welcomeLinksCardBox{
-    z-index: -3;
-    width: 700px;
-    margin: 20px;
-    height: 500px;
-    position: relative;
-    border: solid 7px ;
-    border-color: rgb(235, 115, 38);
-    border-radius: 50px;
-    box-shadow: 0px 5px 13px rgb(235, 115, 38);
+.gridBoxNav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-#navigatorContainer{
-    z-index: -3;
-    margin-top: 10%;
+#aboutBox{
+    margin: var(--permanent-box-margin);
 }
-.navigatorHeaders{
-    z-index: -3;
-    position: absolute;
-    left: 20px;
-    color: rgb(235, 115, 38);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#professionelBox{
+    margin: var(--permanent-box-margin);
+}
+.navBigCard{
+    border: solid 7px var(--primary-color);
+    border-radius: var(--border-radius-card);
+    height: 700px;
+    width: var(--permanent-width-card);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+}
+.navSmallCard{
+    border: solid 7px var(--primary-color);
+    border-radius: var(--border-radius-card);
+    height: 400px;
+    width: var(--permanent-width-card);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+}
+#mediaBox{
+    margin: var(--permanent-box-margin);
+    text-decoration: none;
+}
+#contactBox{
+    margin: var(--permanent-box-margin);
+}
+.navCardPara{
+    font-family: var(--permanent-font);
+    color: var(--primary-color);
+    text-shadow:0px 0px 20px var(--primary-color);
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.navCardHeader{
+    font-family: var(--permanent-font);
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-left: 30px;
 }
