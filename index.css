@@ -2,6 +2,7 @@
 :root{
     --primary-color: rgb(240, 98, 10);
     --secondary-color:rgb(27, 27, 27);
+    --third-color: rgb(220, 220, 220);
     --shadow-color: black;
     --border-radius-card: 50px;
     --border-radius-circular: 100px;
@@ -15,7 +16,7 @@
     margin-top: 50px;
     position: sticky;
     top: 30px;
-    margin-bottom: 240px;
+    margin-bottom: 120px;
 }
 #betaPara{
     color: var(--primary-color);
@@ -71,6 +72,7 @@
     width: 40%;
 }
 #navMenu{
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,9 +112,9 @@
 }
 .navCardPara{
     font-family: var(--permanent-font);
-    color: var(--primary-color);
-    text-shadow:0px 0px 20px var(--primary-color);
-    width: 300px;
+    color: var(--third-color);
+    text-shadow: 0px 3px 0px var(--shadow-color);
+    width: 400px;
     margin-top: 20px;
     margin-left: 30px;
 }
@@ -121,4 +123,110 @@
     color: var(--primary-color);
     margin-top: 20px;
     margin-left: 30px;
+}
+#contactButtonBox{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactWayBtn{
+    margin: 30px;
+    margin-top: 44px;
+    background: var(--secondary-color);
+    border: solid 3px var(--primary-color);
+    border-radius: var(--border-radius-circular);
+    height: 75px;
+    width: 250px;
+    box-shadow: 0px 0px 13px var(--shadow-color);
+    transition: all 1s ease;
+
+}
+.contactWayBtn:hover{
+    margin: 30px;
+    margin-top: 44px;
+    background: var(--secondary-color);
+    border: solid 3px var(--primary-color);
+    border-radius: var(--border-radius-circular);
+    height: 75px;
+    width: 250px;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 13px var(--primary-color);
+    transition: all 1s ease;
+}
+#proButtonBox{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background: var(--secondary-color);
+    border: solid 3px var(--primary-color);
+    border-radius: var(--border-radius-circular);
+    height: 75px;
+    width: 250px;
+    box-shadow: 0px 0px 13px var(--shadow-color);
+    transition: all 1s ease;
+
+}
+.proButton:hover{
+    background: var(--secondary-color);
+    border: solid 3px var(--primary-color);
+    border-radius: var(--border-radius-circular);
+    height: 75px;
+    width: 250px;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 13px var(--primary-color);
+    transition: all 1s ease;
+}
+#proButtonPara{
+    color: var(--third-color);
+    margin-left: 6%;
+}
+#anchoredMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.menuButton{
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-card);
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    transition: all 1s ease;
+
+}
+.menuButton:hover{
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-card);
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 13px var(--primary-color);
+    transition: all 1s ease;
+}
+.menuPara{
+    font-family: var(--permanent-font);
+    color: var(--third-color);
+}
+.buttonAnchor{
+    text-decoration: none;
 }
