@@ -1,10 +1,11 @@
 
 :root{
-    --primary-color: rgb(240, 98, 10);
-    --secondary-color:rgb(27, 27, 27);
-    --third-color: rgb(220, 220, 220);
+    --primary-color: rgb(235, 115, 38);
+    --third-color:rgb(27, 27, 27);
+    --secondary-color: white;
+    --footer-text-color: rgb(0, 0, 0);
     --shadow-color: black;
-    --border-radius-card: 50px;
+    --border-radius-card: 20px;
     --border-radius-circular: 100px;
     --gradient-first-color: rgb(255, 0, 76);
     --permanent-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -53,7 +54,7 @@
 }
 #welcomeBox{
     border-radius: var(--border-radius-card);
-    height: 250px;
+    height: 200px;
     width: 90%;
     background-color: var(--primary-color);
     display: flex;
@@ -71,162 +72,116 @@
     margin-right: 2%;
     width: 40%;
 }
-#navMenu{
-    margin-top: 60px;
+#quickMenuSection{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.gridBoxNav{
+#quickMenuBox{
     display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
-#aboutBox{
-    margin: var(--permanent-box-margin);
-}
-#professionelBox{
-    margin: var(--permanent-box-margin);
-}
-.navBigCard{
-    border: solid 7px var(--primary-color);
-    border-radius: var(--border-radius-card);
-    height: 700px;
-    width: var(--permanent-width-card);
-    box-shadow: 0px 5px 13px var(--shadow-color);
-}
-.navSmallCard{
-    border: solid 7px var(--primary-color);
-    border-radius: var(--border-radius-card);
-    height: 400px;
-    width: var(--permanent-width-card);
-    box-shadow: 0px 5px 13px var(--shadow-color);
-}
-#mediaBox{
-    margin: var(--permanent-box-margin);
+.quickMenuAnchor{
     text-decoration: none;
-}
-#contactBox{
-    margin: var(--permanent-box-margin);
-}
-.navCardPara{
+    color: white;
     font-family: var(--permanent-font);
-    color: var(--third-color);
-    text-shadow: 0px 3px 0px var(--shadow-color);
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 30px;
 }
-.navCardHeader{
+.quickMenuDivisionBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: var(--primary-color);
+    width: 400px;
+    height: 150px;
+    border-radius: var(--border-radius-card);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    transition: all 1s ease;
+}
+.quickMenuDivisionBox:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 7px 15px var(--primary-color);
+    transition: all 1s ease;
+}
+.quickMenuParagraph{
+    font-size: large;
+}
+#quickMenuHeader{
+    margin-top: -20px;
+    font-size: xx-large;
     font-family: var(--permanent-font);
     color: var(--primary-color);
-    margin-top: 20px;
-    margin-left: 30px;
 }
-#contactButtonBox{
-    margin-top: 50px;
+#quickMenuSectionBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 450px;
+    border: solid 5px var(--primary-color);
+    border-radius: var(--border-radius-card);
+}
+.quickMenuImage{
+    margin-right: 2%;
+}
+#aboutmeSection{
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.contactWayBtn{
-    margin: 30px;
-    margin-top: 44px;
-    background: var(--secondary-color);
-    border: solid 3px var(--primary-color);
-    border-radius: var(--border-radius-circular);
-    height: 75px;
-    width: 250px;
-    box-shadow: 0px 0px 13px var(--shadow-color);
-    transition: all 1s ease;
-
+#aboutMeMainHeader{
+    font-family: var(--permanent-font);
+    color: var(--primary-color);
+    font-size: xx-large;
 }
-.contactWayBtn:hover{
-    margin: 30px;
-    margin-top: 44px;
-    background: var(--secondary-color);
-    border: solid 3px var(--primary-color);
-    border-radius: var(--border-radius-circular);
-    height: 75px;
-    width: 250px;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 13px var(--primary-color);
-    transition: all 1s ease;
+.aboutMeHeader{
+    font-family: var(--permanent-font);
+    color: var(--primary-color);
+    font-size: x-large;
 }
-#proButtonBox{
-    margin-top: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.proButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    background: var(--secondary-color);
-    border: solid 3px var(--primary-color);
-    border-radius: var(--border-radius-circular);
-    height: 75px;
-    width: 250px;
-    box-shadow: 0px 0px 13px var(--shadow-color);
-    transition: all 1s ease;
-
-}
-.proButton:hover{
-    background: var(--secondary-color);
-    border: solid 3px var(--primary-color);
-    border-radius: var(--border-radius-circular);
-    height: 75px;
-    width: 250px;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 13px var(--primary-color);
-    transition: all 1s ease;
-}
-#proButtonPara{
-    color: var(--third-color);
-    margin-left: 6%;
-}
-#anchoredMenu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 180px;
-}
-.menuButton{
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius-card);
-    width: 300px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 5px 13px var(--shadow-color);
-    transition: all 1s ease;
-
-}
-.menuButton:hover{
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius-card);
-    width: 300px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(1.1);
-    box-shadow: 0px 5px 13px var(--primary-color);
-    transition: all 1s ease;
-}
-.menuPara{
+.aboutMeParagraph{
+    width: 600px;
     font-family: var(--permanent-font);
     color: var(--third-color);
+    font-size: large;
 }
-.buttonAnchor{
-    text-decoration: none;
+.aboutMeParagraph::before{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-circular);
+    margin-right: 5px;
+    margin-bottom: 3px;
+    width: 10px;
+    height: 10px;
+}
+#footerContainer{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerBox{
+    border-radius: var(--border-radius-card);
+    height: 200px;
+    width: 90%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 5px 13px var(--shadow-color);
+}
+.footerColumn{
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--permanent-font);
+    color: var(--footer-text-color);
 }
