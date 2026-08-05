@@ -13,6 +13,57 @@
     --permanent-box-margin:20px;
     background-color: var(--secondary-color);
 }
+@media (max-width: 768px){
+    #welcomeBox{
+        height: 150px !important;
+        justify-content: center !important;
+    }
+    #footerBox{
+        height: 150px !important;
+    }
+    #welcomeHeader{
+        font-size: larger !important;
+    }
+    #welcomeImage{
+        width: 0px !important;
+    }
+    #quickMenuSectionBox{
+        height: 540px !important;
+    }
+    #quickMenuBox{
+        flex-direction: column;
+    }
+    .quickMenuDivisionBox{
+        width: 250px !important;
+        height: 94px !important;
+    }
+    .quickMenuParagraph{
+        font-size: smaller;
+    }
+    #quickMenuHeader{
+        font-size: large !important;
+    }
+    #aboutMeMainHeader{
+        font-size: large !important;
+    }
+    .aboutMeHeader{
+        font-size: medium !important;
+    }
+    .aboutMeParagraph{
+        font-size: small !important;
+        width: 300px !important;
+    }
+    #footerPoweredImage{
+        width: 70px !important;
+    }
+    .footerParagraph{
+        font-size: small !important;
+    }
+    .footerColumn{
+        margin: 0px !important;
+    }
+}
+
 #betaContainer{
     margin-top: 50px;
     position: sticky;
@@ -150,15 +201,6 @@
     color: var(--third-color);
     font-size: large;
 }
-.aboutMeParagraph::before{
-    display: inline-block;
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius-circular);
-    margin-right: 5px;
-    margin-bottom: 3px;
-    width: 10px;
-    height: 10px;
-}
 #footerContainer{
     margin-bottom: 2%;
     display: flex;
@@ -184,4 +226,10 @@
     flex-direction: column;
     font-family: var(--permanent-font);
     color: var(--footer-text-color);
+}
+.footerParagraph{
+    font-size: large;
+}
+#footerPoweredImage{
+    width: 100px;
 }
