@@ -1,6 +1,6 @@
 
 :root{
-    --primary-color: rgb(235, 115, 38);
+    --primary-color: rgb(241, 135, 50);
     --third-color:rgb(27, 27, 27);
     --secondary-color: white;
     --footer-text-color: rgb(0, 0, 0);
@@ -232,4 +232,9 @@
 }
 #footerPoweredImage{
     width: 100px;
+}
+#quickMenuOutPageSectionBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
