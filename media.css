@@ -5,7 +5,7 @@
     --footer-text-color: rgb(0, 0, 0);
     --shadow-color: black;
     --border-radius-card: 20px;
-    --border-radius-circular: 100px;
+    --border-radius-circular: 150px;
     --gradient-first-color: rgb(255, 0, 76);
     --permanent-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --permanent-width-card: 450px;
@@ -14,20 +14,20 @@
 }
 .body{
     background-image: url(logos/hackerboomm-logo-background-b.svg);
-    background-repeat:repeat-y;
+    background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 #welcomeMediaBox{
     height: 200px;
     width: 90%;
-    border: solid var(--primary-color) 5px;
     border-radius: var(--border-radius-card);
     display: flex;
+    background-color: var(--secondary-color)    ;
     justify-content: space-between;
     overflow: hidden;
     align-items: center;
-    box-shadow: 0px 5px 13px var(--primary-color);
+    box-shadow: 0px 0px 13px var(--primary-color);
 }
 #welcomeMediaHeader{
     font-family: var(--permanent-font);
@@ -36,14 +36,83 @@
     text-shadow: var(--shadow-color);
     margin-left: 2%;
 }
+#legendSection{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+#legend{
+    margin: -22px;
+    font-size: small;
+    font-family: var(--permanent-font);
+}
+#mediaSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.mediaCardsGroup{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardOne{
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: var(--border-radius-circular);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardOne:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 13px var(--primary-color);
+    transition: all 1s ease;
+}
+.cardOneImage{
+    width: 45%;
+}
+.cardTwoHeader{
+    font-family: var(--permanent-font);
+
+}
+.cardTwoParagraph{
+    font-family: var(--permanent-font);
+}
+.cardTwo{
+    width: 600px;
+    height: 350px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0px 0px 20px var(--primary-color);
+    border-radius: var(--border-radius-card);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mediaAnchor{
+    text-decoration: none;
+}
 #footerMediaBox{
     border-radius: var(--border-radius-card);
-    border: solid var(--primary-color) 5px;
     height: 200px;
     width: 90%;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0px 5px 13px var(--primary-color);
+    box-shadow: 0px 0px 13px var(--primary-color);
 }
