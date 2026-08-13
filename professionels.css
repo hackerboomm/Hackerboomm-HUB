@@ -1,0 +1,102 @@
+:root{
+    --primary-color: rgb(241, 135, 50);
+    --third-color:rgb(27, 27, 27);
+    --secondary-color: white;
+    --footer-text-color: rgb(0, 0, 0);
+    --shadow-color: black;
+    --border-radius-card: 20px;
+    --border-radius-circular: 100px;
+    --gradient-first-color: rgb(12, 16, 227);
+    --gradient-second-color: rgb(255, 68, 0);
+    --permanent-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --permanent-width-card: 450px;
+    --permanent-box-margin:20px;
+    background-color: var(--secondary-color);
+}
+#welcomeProfessionelBox{
+    border-radius: var(--border-radius-card);
+    height: 200px;
+    width: 90%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 5px 13px var(--shadow-color);
+}
+.lineerBreakerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.lineerBreaker{
+    background-color: var(--primary-color);
+    width: 90%;
+    height: 5px;
+    
+}
+#professionelsWelcome{
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#professionelsWelcomeHeader{
+    color: var(--primary-color);
+    font-size: 70px;
+}
+#legendSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+#legend{
+    margin: -22px;
+    font-size: small;
+    color: var(--third-color);
+}
+.professionelTopicSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.professionelTopicBoxLeft{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.professionelTopicBoxRight{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+.professionelsTopicHeader{
+    color: var(--primary-color);
+    font-size: 35px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.professionelsTopicParagraph{
+    font-size: 20px;
+    width: 800px;
+}
+#discordBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+    border: solid var(--primary-color) 5px;
+    border-radius: var(--border-radius-card);
+}
+.professionelMarginBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
