@@ -63,16 +63,16 @@
     align-items: center;
     justify-content: center;
 }
-.professionelTopicBoxLeft{
+.professionelTopicBoxMiddle{
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
 }
 .professionelTopicBoxRight{
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items: end;
     flex-direction: column;
 }
 .professionelsTopicHeader{
@@ -89,9 +89,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 600px;
-    height: 250px;
-    border: solid var(--primary-color) 5px;
+    height: 450px;
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-card);
+}
+#sunTzuBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 450px;
+    border-left: solid var(--primary-color) 3px;
+    border-right: solid var(--primary-color) 3px;
     border-radius: var(--border-radius-card);
 }
 .professionelMarginBox{
@@ -99,4 +112,79 @@
     align-items: center;
     justify-content: space-between;
     width: 80%;
+}
+.professionelMarginBoxMiddle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.professionelsLinkAnchor{
+    text-decoration: none;
+}
+.professionelsLinkImage{
+    width: 75%;
+}
+.professionelsLinkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: var(--border-radius-circular);
+    background-color: var(--secondary-color);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    transition: all 1s ease;
+
+}
+.professionelsLinkDescription{
+    margin-top: 30px;
+    font-family: var(--permanent-font);
+    color: var(--secondary-color);
+    width: 400px;
+}
+.professionelsSunTzu{
+    margin-top: 30px;
+    color: var(--primary-color);
+    width: 400px;
+    font-size: 20px;
+}
+.professionelsLinkButton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 13px var(--secondary-color);
+    transition: all 1s ease;
+
+}
+#professionelLinksSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkWidthBox{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sectionLinkAnchor{
+    text-decoration: none;
+}
+.sectionLinkBox{
+    width: 200px;
+    height: 200px;
+    border-radius: var(--border-radius-circular);
+    background-color: var(--secondary-color);
+    box-shadow: 0px 5px 13px var(--shadow-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+.sectionLinkBox:hover{
+    box-shadow: 0px 5px 13px var(--primary-color);
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+.sectionLinkImage{
+    width: 45%;
 }
