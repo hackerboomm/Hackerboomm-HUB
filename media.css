@@ -12,6 +12,40 @@
     --permanent-box-margin:20px;
     background-color: var(--secondary-color);
 }
+@media (max-width: 768px){
+    .longTitle{
+        display: none !important;
+    }
+    .mobileTitle{
+        display: inline !important;
+    }
+    #welcomeMediaBox{
+        height: 150px !important;
+        justify-content: center !important;
+    }
+    #welcomeMediaHeader{
+        font-size: larger !important;
+    }
+    .body{
+        background-size: 0px !important;
+    }
+    .cardTwo{
+        display: none !important;
+    }
+    .mediaCardsGroup{
+        height: fit-content !important;
+        margin-top: 7% !important;
+        margin-bottom: 7% !important;
+    }
+    #legendSection{
+        margin-bottom: 7% !important;
+    }
+    #legend{
+        margin-top: 4% !important;
+        margin-bottom: 4% !important;
+        width: 80% !important;
+    }
+}
 .body{
     background-image: url(logos/hackerboomm-logo-background-b.svg);
     background-repeat:no-repeat;
@@ -28,6 +62,12 @@
     overflow: hidden;
     align-items: center;
     box-shadow: 0px 0px 13px var(--primary-color);
+}
+.longTitle{
+    display: inline;
+}
+.mobileTitle{
+    display: none;
 }
 #welcomeMediaHeader{
     font-family: var(--permanent-font);

@@ -13,6 +13,59 @@
     --permanent-box-margin:20px;
     background-color: var(--secondary-color);
 }
+@media (max-width: 768px){
+    .longTitle{
+        display: none !important;
+    }
+    .mobileTitle{
+        display: inline !important;
+    }
+    #welcomeProfessionelBox{
+        height: 150px !important;
+        justify-content: center !important;
+    }
+    #professionelsWelcome{
+        margin-top: 0px !important;
+    }
+    #professionelsWelcomeHeader{
+        font-size: 25px !important;
+    }
+    #legend{
+        width: 80% !important;
+        margin: 0px !important;
+    }
+    .professionelsTopicHeader{
+        font-size: large !important;
+    }
+    .professionelsTopicParagraph{
+        width: 80% !important;
+        font-size: medium !important;
+    }
+    .professionelMarginBox{
+        flex-direction: column-reverse !important;
+    }
+    #sunTzuBox{
+        width: 300px !important;
+        height: max-content !important;
+    }
+    .professionelsSunTzu{
+        width: 75% !important;
+        font-size: medium !important;
+    }
+    .professionelTopicBoxRight{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #professionelLinksSection{
+        flex-direction: column !important;
+    }
+    #linkWidthBox{
+        flex-direction: column !important;
+    }
+    .sectionLinkBox{
+        margin: 7%;
+    }
+}
 #welcomeProfessionelBox{
     border-radius: var(--border-radius-card);
     height: 200px;
@@ -23,6 +76,12 @@
     align-items: center;
     overflow: hidden;
     box-shadow: 0px 5px 13px var(--shadow-color);
+}
+.longTitle{
+    display: inline;
+}
+.mobileTitle{
+    display: none;
 }
 .lineerBreakerSection{
     display: flex;
