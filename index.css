@@ -90,6 +90,19 @@
     margin-right: 2%;
     width: 40%;
 }
+.lineerBreakerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.lineerBreaker{
+    background-color: var(--primary-color);
+    width: 90%;
+    height: 5px;
+    
+}
 #quickMenuSection{
     margin-top: 7%;
     display: flex;
@@ -144,6 +157,26 @@
 }
 .quickMenuImage{
     margin-right: 2%;
+}
+.projectsContainer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.projectsBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+.projectsImage{
+    width: 70%;
+}
+.projectsBox:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
 }
 #aboutmeSection{
     margin-top: 5%;
