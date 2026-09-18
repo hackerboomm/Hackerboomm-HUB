@@ -157,6 +157,7 @@
 }
 .quickMenuImage{
     margin-right: 2%;
+    width: 8%;
 }
 .projectsContainer{
     margin-top: 5%;
@@ -169,14 +170,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
 }
 .projectsImage{
     width: 70%;
 }
 .projectsBox:hover{
-    transform: scale(1.5);
-    transition: all 1s ease;
+    transform: scale(1.2) rotate(5deg);
+    transition: all 0.3s ease;
 }
 #aboutmeSection{
     margin-top: 5%;
